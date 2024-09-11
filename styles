@@ -1,0 +1,30 @@
+QLineEdit, QComboBox {
+    border: 1px solid #ccc;
+    border-radius: 10px;  /* Redondear las esquinas */
+    padding: 5px;
+    font-size: 14px;
+}
+
+QPushButton {
+    background-color: #007bff;
+    color: white;
+    border-radius: 10px;
+    padding: 8px 15px;
+    font-size: 14px;
+}
+
+QTabWidget::pane { /* Para ajustar el área de las pestañas */
+    border-top: 2px solid #007bff;
+}
+
+QTabBar::tab {
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+QTabBar::tab:selected {
+    background: #007bff;
+    color: white;
+}
